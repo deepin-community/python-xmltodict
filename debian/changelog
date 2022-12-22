@@ -1,0 +1,79 @@
+python-xmltodict (0.12.0-2) unstable; urgency=medium
+
+  * Drop python2 support; Closes: #938278
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 01 Apr 2020 17:48:59 -0400
+
+python-xmltodict (0.12.0-1) unstable; urgency=medium
+
+  * New upstream version 0.12.0
+  * d/control:
+    + Switch to debhelper-compat and level 12
+    + Bump to Standards-Version 4.4.1 (no changes needed)
+    + Add Rules-Requires-Root: no
+
+ -- Sebastien Badia <sbadia@debian.org>  Thu, 16 Jan 2020 15:44:46 +0100
+
+python-xmltodict (0.11.0-2) unstable; urgency=medium
+
+  * d/copyright: Update copyright years and use HTTPS for URI
+  * d/compat: Bump compat version to 11
+  * d/control:
+    + Bump to Standards-Version 4.1.4 (no changes needed)
+    + Use salsa.debian.org in Vcs-* fields
+  d/upstream: Added Upstream metadata
+
+ -- Sebastien Badia <sbadia@debian.org>  Mon, 02 Jul 2018 16:29:41 +0200
+
+python-xmltodict (0.11.0-1) unstable; urgency=medium
+
+  * d/control: Move testing packages to Build-Depends-Indep.
+    Thanks zigo!
+  * New upstream version 0.11.0
+  * d/compat: Switch to compat-version 10
+  * d/control: Use my Debian email address
+
+ -- Sebastien Badia <sbadia@debian.org>  Sat, 13 May 2017 17:40:12 +0200
+
+python-xmltodict (0.10.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * d/control:
+      Bump Standards-Version to 3.9.8 (no changes).
+      Update Vcs-* fields (switch to https).
+      Remove python-versions.
+
+ -- Sebastien Badia <seb@sebian.fr>  Mon, 19 Sep 2016 16:30:34 +0200
+
+python-xmltodict (0.9.2-3) unstable; urgency=medium
+
+  * Rebuild, upload to unstable.
+
+ -- Sebastien Badia <seb@sebian.fr>  Tue, 12 May 2015 18:03:51 +0200
+
+python-xmltodict (0.9.2-2) experimental; urgency=medium
+
+  [ Ghislain Antony Vaillant ]
+  * Use pybuild as package build system.
+  * Add Python 3 version of the binary package (Closes: #782613)
+  * d/rules: proper cleanup of .coverage
+
+  [ Sebastien Badia ]
+  * Rebuild for experimental.
+  * d/rules: Fix clean targed.
+
+ -- Sebastien Badia <seb@sebian.fr>  Fri, 17 Apr 2015 23:41:53 +0200
+
+python-xmltodict (0.9.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * d/control: Remove dpkg pre-depends (>= 1.15.6~)
+  * d/rules: Clean rule file (Thanks Gonéri)
+
+ -- Sebastien Badia <seb@sebian.fr>  Mon, 02 Mar 2015 11:02:44 +0100
+
+python-xmltodict (0.9.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #745052)
+
+ -- Sebastien Badia <seb@sebian.fr>  Thu, 17 Apr 2014 17:51:00 +0200

@@ -1,0 +1,25 @@
+Source: python-xmltodict
+Section: python
+Priority: optional
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Build-Depends: debhelper-compat (= 12),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Build-Depends-Indep: python3-coverage,
+                     python3-nose
+Standards-Version: 4.4.1
+Rules-Requires-Root: no
+Vcs-Browser: https://salsa.debian.org/debian/python-xmltodict
+Vcs-Git: https://salsa.debian.org/debian/python-xmltodict.git
+Homepage: https://github.com/martinblech/xmltodict
+
+Package: python3-xmltodict
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Makes working with XML feel like you are working with JSON (Python 3)
+ xmltodict is a Python module that makes working with XML feel like you are
+ working with JSON. xmltodict is very fast (Expat-based) and has a streaming
+ mode with a small memory footprint, suitable for big XML dumps.
+ .
+ This package provides the Python 3 version of the library.
